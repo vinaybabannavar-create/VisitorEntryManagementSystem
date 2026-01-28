@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS visitordb;
+
+USE visitordb;
+
+CREATE TABLE IF NOT EXISTS visitors (
+    visitor_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    purpose VARCHAR(200),
+    contact_number VARCHAR(15),
+    entry_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

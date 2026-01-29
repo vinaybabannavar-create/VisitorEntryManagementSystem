@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBConnection {
 
     // PLACEHOLDERS - PLEASE UPDATE THESE WITH YOUR ACTUAL CREDENTIALS
-    private static final String URL = "jdbc:mysql://localhost:3306/visitordb?useSSL=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost:3306/visitordb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USERNAME = "root"; 
     private static final String PASSWORD = "vinay"; // Update this!
 
